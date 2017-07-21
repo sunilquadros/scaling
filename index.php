@@ -1,7 +1,7 @@
 <html>
 <head></head>
 <?php
-$ip = gethostbyname('scaling.cloudapps.lab.example.com');
-echo $ip;
+$localIP = getHostByName(getHostName());
+echo $localIP;
 ?>
 </html>
