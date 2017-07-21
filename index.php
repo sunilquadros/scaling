@@ -2,6 +2,6 @@
 <head></head>
 <?php
 $localIP = getHostByName(getHostName());
-echo $localIP;
+echo SERVER IP: $localIP;
 ?>
 </html>
